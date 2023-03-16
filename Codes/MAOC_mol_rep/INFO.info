@@ -1,3 +1,11 @@
 The codes for generating the MAOC and PCX-MAOC, as well as analysing the contribution of molecular orbitals in the first N principal 
 components with the restrictions mentioned in the article, are all available here and can be used directly from this repository, or 
 by installing MAOC mol rep from pypi (pip install MAOC-mol-rep==0.0.2). 
+
+Attention!!!
+
+The code generates MAOC, PCX-MAOC, and PCs only fom molecules with atoms ranging from Z=1 (hydrogen) to Z=54 (Xenone).
+This is done based on the compatibility of the basis sets chosen in the article.
+Users working with other elements (Z=55 -) should modify the list of elements and ensure that the basis set is compatible with their elements. 
+Because not all basis sets are supported by the pyscf package, interested users must download and upload the basis sets from 
+https://www.basissetexchange.org/. Please see https://pyscf.org/user/gto.html for more information.
