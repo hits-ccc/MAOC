@@ -1,0 +1,2 @@
+This github section is dedicated to the codes used in the paper to generate the results shown in the article or in the supporting information.
+The codes are all in Jupyter and can be used directly from this repository or by installing the MAOC-mol-rep 0.0.2 package from pypi (pip install MAOC-mol-rep==0.0.2)
