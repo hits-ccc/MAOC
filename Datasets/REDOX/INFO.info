@@ -1,0 +1,33 @@
+This version of the REDOX dataset includes optimized xyz-files, as well as SPE, H/SOMO, LUMO, and spin contaminations. 
+
+23 --> # of atoms in the molecule
+anthracene[*]  ;  1[**]  ;  0[***]  ;  singlet[****]  ;  -555.101381064158[*****]  ;  -6.03[******]  ;  -2.12[*******]  ;  NaN[********]
+   C       -0.84803        0.25143        0.00000
+   C       -1.30461        1.59692        0.00000
+   C       -0.38706        2.59834       -0.00000
+   C        0.99441        2.27656       -0.00000
+   C        1.34597        0.88741       -0.00000
+   N        0.40285       -0.10088       -0.00000
+   C        1.99804        3.23923       -0.00000
+   C        3.34330        2.88150       -0.00000
+   C        3.69597        1.49022       -0.00000
+   C        2.68940        0.52856       -0.00000
+   C        4.38371        3.85040       -0.00000
+   C        5.69072        3.47169        0.00000
+   C        6.03990        2.09699        0.00000
+   C        5.07397        1.13884        0.00000
+   H       -1.57846       -0.55542        0.00000
+   H       -2.36851        1.80241        0.00000		[*]		--> Skeleton type
+   H       -0.68902        3.64084        0.00000		[**]		--> Number of nitrogen atoms
+   H        1.72607        4.29088       -0.00000		[***]		--> Charge of the compound
+   H        2.93548       -0.52764       -0.00000		[****]		--> Spin multiplicity
+   H        4.11320        4.90136       -0.00000		[*****]		--> Single Point Energy computed using PBE0-D3/def2-TZVP [in a.u./Hartree]
+   H        6.47446        4.22058        0.00000		[******]	--> H/SOMO energy computed using PBE0-D3/def2-TZVP [in eV]
+   H        7.08628        1.81353        0.00000		[*******]	--> LUMO energy computed using PBE0-D3/def2-TZVP [in eV]
+   H        5.33932        0.08703        0.00000		[********]	--> Deviation value of <S**2> from S(S+1)
+
+|___________________________________________________|
+			  |
+			  V
+	   The optimized xyz coordinates
+		[PBE0-D3/def2-TZVP]
