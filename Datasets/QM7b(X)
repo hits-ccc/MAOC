@@ -1,0 +1,28 @@
+This version of the QM7b(X) dataset includes optimized xyz-files, as well as SPE, H/SOMO, LUMO, and spin contaminations.
+
+The xyz file has the following structure:
+
+8 --> # of atoms in the molecule
+vertical [*] ;  -1 [**] ;  doublet [***] ;  -79.64922474945 [****] ;  4.22 [*****] ;  6.46 [******] ;  0.000961 [*******]
+  C   0.99998282252140     -0.00287509997531     -0.00643966907900
+  C   2.52001682404492     -0.00711706843870      0.00061347185488          [*]           --> Property type
+  H   0.61252448537817      1.03178604276251     -0.00362082112421		      [**]          --> Charge of the compound
+  H   0.60377750692183     -0.52291893796867      0.88431398090902          [***]         --> Spin multiplicity
+  H   0.61209569545279     -0.51495860899133     -0.90542181332411          [****]        --> Single Point Energy computed using PBE0-D3/def2-TZVP [in a.u./Hartree]
+  H   2.90790470882084      0.50521028320880      0.89945666776107          [*****]       --> H/SOMO energy computed using PBE0-D3/def2-TZVP [in eV]
+  H   2.91622463170529      0.51268296754008     -0.89028095392094          [******]      --> LUMO energy computed using PBE0-D3/def2-TZVP [in eV]
+  H   2.90747331515475     -1.04177957813738     -0.00192086307671          [*******]     --> Deviation value of <S**2> from S(S+1)
+
+|___________________________________________________|
+			                    |
+			                    V
+	         The optimized xyz coordinates
+		            [PBE0-D3/def2-TZVP]
+                
+                
+Attention!!!
+
+The order of the files in the QM7b(X) dataset differs from the order of the files in the original QM7b dataset because they are renamed after 
+removing files with high deviations from the ideal value of the <S**2> or problems with convergence. Users can combine QM7b and QM7b(X) properties 
+for specific compounds by automatically selecting compounds with the same xyz file (in the case of vertical properties) or by producing SMILES 
+(or any other representation) for each compound and combining properties of compounds with the same representation. 
