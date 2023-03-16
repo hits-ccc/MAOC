@@ -1,0 +1,3 @@
+The codes for generating the MAOC and PCX-MAOC, as well as analysing the contribution of molecular orbitals in the first N principal 
+components with the restrictions mentioned in the article, are all available here and can be used directly from this repository, or 
+by installing MAOC mol rep from pypi (pip install MAOC-mol-rep==0.0.2). 
