@@ -14,15 +14,21 @@ vertical [*] ;  -1 [**] ;  doublet [***] ;  -79.64922474945 [****] ;  4.22 [****
   H   2.90747331515475     -1.04177957813738     -0.00192086307671          [*******]     --> Deviation value of <S**2> from S(S+1)
 
 |___________________________________________________|
-			                    |
-			                    V
-	         The optimized xyz coordinates
-		            [PBE0-D3/def2-TZVP]
+			  |
+			  V
+	   The optimized xyz coordinates
+		[PBE0-D3/def2-TZVP]
                 
                 
-Attention!!!
+Attention 1!!!
 
 The order of the files in the QM7b(X) dataset differs from the order of the files in the original QM7b dataset because they are renamed after 
 removing files with high deviations from the ideal value of the <S**2> or problems with convergence. Users can combine QM7b and QM7b(X) properties 
 for specific compounds by automatically selecting compounds with the same xyz file (in the case of vertical properties) or by producing SMILES 
 (or any other representation) for each compound and combining properties of compounds with the same representation. 
+
+Attention 2!!!
+
+Files are named beginning with 0 and not in an ambiguous manner, but this should not be a problem because the properties are written inside the file.
+If users want structures in their natural order (e.g., 0, 1, 2) rather than their digits (e.g., 1, 10, 100, 2, 20,...), 
+please use natsort (pip install natsort) 
