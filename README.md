@@ -27,6 +27,7 @@ Before installing MAOC, one should be aware of the dependencies that this packag
 | `pyscf` | 2.1 | https://pyscf.org/index.html | 
 | `qml` | 0.4.0.27 | https://www.qmlcode.org/index.html | 
 | `natsort` | 8.3.1 | https://natsort.readthedocs.io/en/stable/index.html |
+| `openbabel` | 3.1.1.1 | https://openbabel.org/docs/dev/UseTheLibrary/PythonInstall.html |
 
 Please see the collapsed section below for more information on how to use the codes from the maoc-support-functions package, or refer to the package's pypi documentation ([MAOC_mol_rep]([https://pypi.org/project/MAOC-mol-rep/0.0.2/](https://pypi.org/project/maoc-support-functions/)))
 
