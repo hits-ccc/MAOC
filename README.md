@@ -9,10 +9,6 @@ Furthermore, the article this github supports introduces two new chemical datase
 The Matrix of Orthogonalized Atomic Orbital Coefficients (MAOC) is a charge-variant, symmetry-invariant molecular and atomic representation that can be used for quantum machine learning in predicting the QM properties (not limited to them) of molecular systems regardless of the ML model or system size. 
 Users who are interested in generating MAOC can do so by installing the pypi package that supports the article that proposes MAOC:
 
-`pip install MAOC-mol-rep==0.0.2`
-
-A more recent version and structured code is available here:
-
 `pip install maoc-support-functions`
 
 The GitHub tutorial demonstrates how to use this package to build the MAOC representation.
