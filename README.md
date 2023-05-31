@@ -25,7 +25,7 @@ Before installing MAOC, one should be aware of the dependencies that this packag
 | `natsort` | 8.3.1 | https://natsort.readthedocs.io/en/stable/index.html |
 | `openbabel` | 3.1.1.1 | https://openbabel.org/docs/dev/UseTheLibrary/PythonInstall.html |
 
-Please see the collapsed section below for more information on how to use the codes from the maoc-support-functions package, or refer to the package's pypi documentation ([MAOC_mol_rep](https://pypi.org/project/maoc-support-functions/))
+Please see the collapsed section below for more information on how to use the codes from the maoc-support-functions package, or refer to the package's pypi documentation ([MAOC](https://pypi.org/project/maoc-support-functions/))
 
 <details>
 <summary>How to use Full_MAOC </summary>
