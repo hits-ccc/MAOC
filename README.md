@@ -83,11 +83,11 @@ This means that MAOC can be used to represent any type of molecule, from monatom
 This repository only contains code that operates with xyz coordinates. The code for periodic systems is easily modifiable by PySCF users with experience. Experienced QM users who have worked with periodic compounds and input files such as cif but have not had the opportunity to use PySCF should contact us for assistance.
 The package's defined basis sets cover the majority of the atoms in the periodic table. If one needs to use a different basis set than those defined in the PySCF package or wishes to use atoms whose basis sets are not defined, please consult [Ref A](https://github.com/pyscf/pyscf/blob/master/examples/gto/04-input_basis.py) and [Ref B](https://www.basissetexchange.org).
 
-### MAOC: A charge-dependent molecular representation
+### MAOC: A charge ans spin-dependent molecular representation
 
 <img align="left" src="https://github.com/hits-ccc/MAOC/blob/main/Images/git_2.gif" width="400" height="300">
-The matrix of orthogonalized atomic coefficients generated directly for the PySCF package is a charge invariant molecular representation.
-Our group's recent focus has been on the properties of open-shell compounds (PAH and redox-active), so we needed a charge dependent compound capable of distinguishing compounds based on their nuclear coordinates, nuclear type, and charge/spin multiplicity. We used a simple trick to accomplish this: we changed the electronic structure of the atom with the highest atomic number from Z to Z-C, where C is the charge of the molecular system. Since the chosen basis set does not support the electronic structure of the new element, the charge of the compound for molecules with Z=53–55 is constrained to the range of (-2 (Z=53) to 0 (Z=55)). If your molecule has these types of atoms, please get in touch with us. 
+The matrix of orthogonalized atomic orbital coefficients directly generated for the PySCF package is a charge- and spin-invariant representation of the systems.
+Our group's recent focus has been on the properties of open-shell compounds (PAH and redox-active), so we required a charge-dependent representation that could differentiate compounds based on their nuclear coordinates, nuclear type, and charge/spin multiplicity. We made the MAOC charge and spin variant with a few simple tricks, so that two compounds with identical geometry but different charge and spin are represented differently. To learn more how we are doing that, please refer to the paper's [SI](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64746116e64f843f41f2b431/original/supplementary-material.pdf).
 
 The GIF depicts the charge-dependence of the MAOC representation of a methane molecule with various charges/spin multiplicities.
 The cosine similarity of the specific matrix to the charge zero matrix is indicated in the GIF. 
