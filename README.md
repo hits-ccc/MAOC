@@ -80,9 +80,8 @@ This means that MAOC can be used to represent any type of molecule, from monatom
 <img src="https://github.com/hits-ccc/MAOC/blob/main/Images/git_1.png" width="700" height="300">
 </p>
 
-The code provided with the article allows users to generate the MAOC representation for molecules with atoms ranging from Z=1 to Z=55.
-This is done for the simple reason that the basis set we're using is only compatible with these elements.
-We demonstrated in the article that it is possible to produce MAOC for every single atom in the periodic table, so please contact us if your molecule contains atoms that are not on the list. 
+This repository only contains code that operates with xyz coordinates. The code for periodic systems is easily modifiable by PySCF users with experience. Experienced QM users who have worked with periodic compounds and input files such as cif but have not had the opportunity to use PySCF should contact us for assistance.
+The package's defined basis sets cover the majority of the atoms in the periodic table. If one needs to use a different basis set than those defined in the PySCF package or wishes to use atoms whose basis sets are not defined, please consult [Ref A](https://github.com/pyscf/pyscf/blob/master/examples/gto/04-input_basis.py) and [Ref B](https://www.basissetexchange.org).
 
 ### MAOC: A charge-dependent molecular representation
 
