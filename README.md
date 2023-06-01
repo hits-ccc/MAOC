@@ -143,4 +143,4 @@ This expanded dataset is known as QM7b<sup> X </sup>. The anionic, cationic, and
 
 ## References
 
-https://chemrxiv.org/engage/chemrxiv/article-details/64160d85aad2a62ca1f937f6
+[1] https://chemrxiv.org/engage/chemrxiv/article-details/64160d85aad2a62ca1f937f6
