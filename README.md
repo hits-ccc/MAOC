@@ -83,7 +83,7 @@ This means that MAOC can be used to represent any type of molecule, from monatom
 This repository only contains code that operates with xyz coordinates. The code for periodic systems is easily modifiable by PySCF users with experience. Experienced QM users who have worked with periodic compounds and input files such as cif but have not had the opportunity to use PySCF should contact us for assistance.
 The package's defined basis sets cover the majority of the atoms in the periodic table. If one needs to use a different basis set than those defined in the PySCF package or wishes to use atoms whose basis sets are not defined, please consult [Ref A](https://github.com/pyscf/pyscf/blob/master/examples/gto/04-input_basis.py) and [Ref B](https://www.basissetexchange.org).
 
-### MAOC: A charge ans spin-dependent molecular representation
+### MAOC: A charge and spin-dependent molecular representation
 
 <img align="left" src="https://github.com/hits-ccc/MAOC/blob/main/Images/git_2.gif" width="400" height="300">
 The matrix of orthogonalized atomic orbital coefficients directly generated for the PySCF package is a charge- and spin-invariant representation of the systems.
